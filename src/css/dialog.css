@@ -1,0 +1,164 @@
+﻿.dialog {
+    font-family: GoogleSans-Medium;
+    position: fixed;
+    width: 660px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    z-index: 100;
+    padding-bottom:5px;
+}
+
+.dialog-header{
+    position:relative;
+    display:flex;
+    height:24px;
+    width:100%;
+}
+    .dialog-header .title{
+        font-size:16px;
+        padding:10px 0px 10px 16px;
+    }
+    .dialog-header .close-icon {
+        position: absolute;
+        right: 0px;
+        width: 20px;
+        height: 20px;
+        background-image: url('../contents/icons/x.svg');
+    }
+        .dialog-header .close-icon:hover {
+            background-color: #D2D2D2;
+            cursor: pointer;
+        }
+        .dialog-content {
+            margin: 15px 5px 10px 10px;
+            display: flex;
+        }
+
+.dialog .avatar {
+    width: 160px;
+    height: 100%;
+    background-image: url('../contents/images/avatar-default.png');
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    padding: 160px 24px 0px 24px;
+    text-align: center;
+    background-position: center 0px;
+    font-size: 13px;
+}
+
+input {
+    display: block;
+    border: 1px solid #d2d2d2;
+}
+
+.dialog select {
+    display: block;
+    margin-top: 4px;
+    height: 40px;
+    width: 220px;
+    padding-left: 16px;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 1px solid #019160;
+}
+
+select:focus {
+    border: 1px solid #019160;
+}
+
+.dialog input[type="text"], input[type="date"], input[type="email"] {
+    margin-top: 4px;
+    height: 38px;
+    padding: 0px 0px 0px 16px;
+    border-radius: 4px;
+    width: 200px;
+}
+
+
+.inline {
+    display: flex;
+    margin-top: 6px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+.dialog-footer button {
+    float: right;
+    margin: 8px 6px 0px 0px;
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-position: 24px 12px;
+    background-size: 13px 13px;
+    background-repeat: no-repeat;
+}
+
+    .dialog-footer button:hover {
+        cursor: pointer;
+    }
+
+#btnSave {
+    padding-left: 25px;
+    background-color: #019160;
+    color: #ffffff;
+    background-image: url('../contents/images/save-icon.png');
+}
+
+    #btnSave:hover {
+        background-color: #2FBE8E;
+    }
+
+#btnDelete {
+    margin-right: 8px;
+    padding-left: 25px;
+    background-color: #F65454;
+    color: #ffffff;
+    background-image: url('../contents/images/delete.png');
+}
+
+    #btnDelete:hover {
+        background-color: #f36e6e;
+    }
+
+#btnCancel {
+    margin-right: 8px;
+    background-color: transparent;
+}
+
+    #btnCancel:hover {
+        background-color: #D2D2D2;
+    }
+
+.subtitle {
+    height: 4px;
+    width: 100px;
+    background-color: #019160;
+    margin-top: 5px;
+}
+
+.second-title {
+    margin-top: 15px;
+}
+
+#txtSalary {
+    text-align: right;
+    padding: 0px 10px 0px 8px;
+}
+
+.border-red {
+    border-color: red;
+}

@@ -1,0 +1,30 @@
+.logo {
+    width: 100%;
+    height: 48px;
+}
+
+    .logo .logo-box {
+        display: flex;
+        position: absolute;
+        width: 220px;
+        left: 16px;
+        top: 12px;
+        height: 24px;
+    }
+
+        .logo .logo-box .toggle-icon {
+            width: 24px;
+            height: 100%;
+            background-image: url('../contents/images/toggle.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .logo .logo-box .amis-logo {
+            width: 100%;
+            height: 100%;
+            background-position: 10px 0px;
+            background-image: url('../contents/images/cukcuk-logo.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
